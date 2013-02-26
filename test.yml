@@ -1,0 +1,31 @@
+- shop: 床屋
+  closed:
+    # http://www.sssg.org/blogs/naoya/archives/2179
+    # 毎週,第一,第二,第三,第四,祝日,特定(dayのみ)
+    - type: 毎週
+      weekday: [月]
+      day: []
+    - type: 第三
+      weekday: [日]
+      day: []
+- shop: パン屋
+  closed:
+    - type: 第一
+      weekday: [日, 月]
+      day: []
+    - type: 第三
+      weekday: [日, 月]
+      day: []
+- shop: 郵便局
+  closed:
+    - type: 毎週
+      weekday: [土, 日]
+      day: []
+- shop: 近所の肉屋
+  closed:
+    - type: 特定
+      weekday: []
+      day: [1, 10, 20]
+    - type: 祝日
+      weekday: []
+      day: []
